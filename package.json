@@ -1,0 +1,20 @@
+{
+  "name": "mk3a-xiipplg1-kelompok5-resful_api_expressjs",
+  "version": "1.0.0",
+  "description": "Tugas mata pelajaran MK3-A, kelas XII PPLG 1, kelompok 5, untuk membuat API endpoints melalui ExpressJS yang mengimplementasikan operasi CRUD.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Kelompok 5",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
