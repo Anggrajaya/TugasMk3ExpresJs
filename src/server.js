@@ -3,7 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
-const db = require("./src/config/database");
+const db = require("./config/database");
 
 // Middlewares
 app.use(express.json());
