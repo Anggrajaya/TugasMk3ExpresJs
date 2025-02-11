@@ -31,6 +31,7 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
 
+
 db.authenticate()
   .then((_) => {
     console.log("Berhasil terkoneksi ke basis data");
